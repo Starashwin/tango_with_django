@@ -136,6 +136,8 @@ STATIC_URL = '/static/'
 
 LOGIN_URL = 'rango:login'
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = False
 
+SESSION_COOKIE_AGE = 86400 #1 day expiration
 
 
